@@ -126,5 +126,33 @@ nav ul li a:hover {
     text-decoration: underline !important;
     outline: none;
 }
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0 0;
+    display: flex;
+    gap: 1rem; /* Puedes hacer esto más pequeño en móvil */
+    justify-content: center;
+    flex-wrap: wrap; /* Deja esto para que no se salga de pantalla */
+}
 
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0.3em 0.8em;
+    display: inline-block;
+    white-space: nowrap;
+    /* Opcional: para que no se rompa la línea aunque sea largo */
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
 
