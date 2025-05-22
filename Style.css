@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('tech-background-fvwtt878xhbn6lh6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 1.02rem; /* Aumenta un poco el tamaño base de fuente */
+}
+
+/* Contenedor principal responsivo */
+header, section {
+    max-width: 900px; /* Reduce el ancho máximo */
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90vw;      /* Reduce el ancho relativo */
+    box-sizing: border-box;
+}
+
+/* Sección responsiva */
+section {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Reduce el ancho máximo de las secciones */
+    font-size: 1.045em; /* Aumenta el tamaño de fuente un 10% */
+    margin: 2rem auto 1rem auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Texto responsivo */
+p, h1, h2, h3 {
+    line-height: 1.6;
+    word-break: break-word;
+}
+
+/* Encabezado responsivo */
+header {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(10, 9, 9);
+    font-size: 1.5rem; /* Reduce el tamaño de los títulos */
+}
+
+@media (max-width: 600px) {
+    header h1, header h2 {
+        font-size: 1.3rem;
+    }
+    section {
+        max-width: 98vw;
+        padding: 0.5rem;
+    }
+    nav ul {
+        gap: 0.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    section {
+        max-width: 500px;
+        font-size: 1.05em;
+    }
+    header h1, header h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    section {
+        max-width: 650px;
+        font-size: 1.15em;
+    }
+    header h1, header h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Barra de navegación responsiva */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.btn-regresar:hover,
+.btn-regresar:focus {
+    color: #ffcc00 !important;
+    text-decoration: underline !important;
+    outline: none;
+}
+
+
