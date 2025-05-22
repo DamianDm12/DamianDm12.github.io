@@ -37,7 +37,7 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 400px; /* Reduce el ancho máximo de las secciones */
     font-size: 1.045em; /* Aumenta el tamaño de fuente un 10% */
-    margin: 2rem auto 1rem auto;
+    margin: 2rem auto 0.2rem auto;
     width: 100%;
     box-sizing: border-box;
 }
