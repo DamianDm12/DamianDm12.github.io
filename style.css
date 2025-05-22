@@ -71,6 +71,23 @@ header h1, header h2 {
     nav ul {
         gap: 0.5rem;
     }
+    nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0 0;
+    display: flex;
+    gap: 2rem; /* Espacio entre elementos en escritorio */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ...otros estilos... */
+
+@media (max-width: 600px) {
+    nav ul {
+        gap: 0.5rem; /* Menor espacio entre elementos en móvil */
+    }
+}
 }
 
 @media (min-width: 1200px) {
