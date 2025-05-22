@@ -105,18 +105,21 @@ nav ul li a:hover {
 
 /* Móvil: hasta 600px */
 @media (max-width: 600px) {
-    header h1, header h2 {
-        font-size: 1.3rem;
-    }
-    section {
-        max-width: 98vw;
-        padding: 0.5rem;
-    }
     nav ul {
-        gap: 0.5rem;
+        gap: 0.2rem; /* Juntamos más los items */
     }
     nav ul li {
-        margin: 0 0.5rem;
+        margin: 0 0.2rem; /* Menos margen entre los items */
+    }
+    nav ul li a {
+        font-size: 0.85em; /* Letra más chica solo en móvil */
+        padding: 0.2em 0.4em; /* Opcional: menos padding horizontal */
+    }
+    header h1, header h2 {
+        font-size: 1.1rem; /* Opcional: achica los títulos si quieres */
+    }
+    section {
+        font-size: 0.95em; /* Opcional: textos de las secciones más chicos */
     }
 }
 
